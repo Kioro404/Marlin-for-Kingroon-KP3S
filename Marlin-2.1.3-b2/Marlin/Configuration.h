@@ -3427,7 +3427,7 @@
 //
 #define TOUCH_SCREEN
 #if ENABLED(TOUCH_SCREEN)
-  #define BUTTON_DELAY_EDIT      50 // (ms) Button repeat delay for edit screens
+  #define BUTTON_DELAY_EDIT     50  // (ms) Button repeat delay for edit screens
   #define BUTTON_DELAY_MENU     250 // (ms) Button repeat delay for menus
 
   #if ANY(TFT_CLASSIC_UI, TFT_COLOR_UI)
@@ -3436,8 +3436,8 @@
 
   #define TOUCH_SCREEN_CALIBRATION
 
-  #define TOUCH_CALIBRATION_X -8699
-  #define TOUCH_CALIBRATION_Y -11799
+  #define TOUCH_CALIBRATION_X   -8699
+  #define TOUCH_CALIBRATION_Y   -11799
   #define TOUCH_OFFSET_X        256
   #define TOUCH_OFFSET_Y        355
   #define TOUCH_ORIENTATION TOUCH_PORTRAIT

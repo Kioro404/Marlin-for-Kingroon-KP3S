@@ -12,5 +12,5 @@ This file contains:
 - Stealchop disabled.
 - XYZ axes microsteps from 16 to 32 (Moves twice as fast if left at their default value).
 - Screen rotated 270° and adjusted to portrait mode.
-- Background color changed to "BLACK_MARLIN".
+- Theme change to "BLACK_MARLIN".
 - Etc.

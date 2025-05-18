@@ -1,0 +1,185 @@
+# Ignorar archivos y carpetas temporales y de configuración
+*.zip
+*.code-workspace
+*.log
+
+# Ignorar carpetas de VSCode y otros IDEs
+.vscode/
+.idea/
+
+# Otros .gitignore
+
+#
+# Marlin 3D Printer Firmware
+# Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
+#
+# Based on Sprinter and grbl.
+# Copyright (c) 2011 Camiel Gubbels / Erik van der Zalm
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+
+# Generated files
+Marlin-2.1.3-b2/_Version.h
+Marlin-2.1.3-b2/bdf2u8g.exe
+Marlin-2.1.3-b2/genpages.exe
+Marlin-2.1.3-b2/marlin_config.json
+Marlin-2.1.3-b2/mczip.h
+Marlin-2.1.3-b2/language*.csv
+Marlin-2.1.3-b2/out-csv/
+Marlin-2.1.3-b2/out-language/
+Marlin-2.1.3-b2/*.gen
+Marlin-2.1.3-b2/*.sublime-workspace
+
+# OS
+Marlin-2.1.3-b2/applet/
+Marlin-2.1.3-b2/.DS_Store
+
+# Compiled C++ Object files
+Marlin-2.1.3-b2/*.slo
+Marlin-2.1.3-b2/*.lo
+Marlin-2.1.3-b2/*.o
+Marlin-2.1.3-b2/*.obj
+Marlin-2.1.3-b2/*.ino.cpp
+
+# Precompiled Headers
+Marlin-2.1.3-b2/*.gch
+Marlin-2.1.3-b2/*.pch
+
+# Compiled Dynamic libraries
+Marlin-2.1.3-b2/*.so
+Marlin-2.1.3-b2/*.dylib
+Marlin-2.1.3-b2/*.dll
+
+# Fortran module files
+Marlin-2.1.3-b2/*.mod
+Marlin-2.1.3-b2/*.smod
+
+# Compiled Static libraries
+Marlin-2.1.3-b2/*.lai
+Marlin-2.1.3-b2/*.la
+Marlin-2.1.3-b2/*.a
+Marlin-2.1.3-b2/*.lib
+
+# Executables
+Marlin-2.1.3-b2/*.exe
+Marlin-2.1.3-b2/*.out
+Marlin-2.1.3-b2/*.app
+
+# Compiled C Object files
+Marlin-2.1.3-b2/*.o
+Marlin-2.1.3-b2/*.ko
+Marlin-2.1.3-b2/*.obj
+Marlin-2.1.3-b2/*.elf
+
+# Precompiled Headers
+Marlin-2.1.3-b2/*.gch
+Marlin-2.1.3-b2/*.pch
+
+# Libraries
+Marlin-2.1.3-b2/*.lib
+Marlin-2.1.3-b2/*.a
+Marlin-2.1.3-b2/*.la
+Marlin-2.1.3-b2/*.lo
+
+# Shared objects (inc. Windows DLLs)
+Marlin-2.1.3-b2/*.dll
+Marlin-2.1.3-b2/*.so
+Marlin-2.1.3-b2/*.so.*
+Marlin-2.1.3-b2/*.dylib
+
+# Executables
+Marlin-2.1.3-b2/*.exe
+Marlin-2.1.3-b2/*.out
+Marlin-2.1.3-b2/*.app
+Marlin-2.1.3-b2/*.i*86
+Marlin-2.1.3-b2/*.x86_64
+Marlin-2.1.3-b2/*.hex
+
+# Debug files
+Marlin-2.1.3-b2/*.dSYM/
+Marlin-2.1.3-b2/*.su
+
+# PlatformIO files/dirs
+Marlin-2.1.3-b2/.pio*
+Marlin-2.1.3-b2/.pioenvs
+Marlin-2.1.3-b2/.piolibdeps
+Marlin-2.1.3-b2/.clang_complete
+Marlin-2.1.3-b2/.gcc-flags.json
+Marlin-2.1.3-b2//lib/
+
+# Secure Credentials
+Marlin-2.1.3-b2/Configuration_Secure.h
+
+# Visual Studio
+Marlin-2.1.3-b2/*.sln
+Marlin-2.1.3-b2/*.vcxproj
+Marlin-2.1.3-b2/*.vcxproj.user
+Marlin-2.1.3-b2/*.vcxproj.filters
+Marlin-2.1.3-b2/Release/
+Marlin-2.1.3-b2/Debug/
+Marlin-2.1.3-b2/__vm/
+Marlin-2.1.3-b2/.vs/
+Marlin-2.1.3-b2/vc-fileutils.settings
+
+# Visual Studio Code
+Marlin-2.1.3-b2/.vscode/*
+!Marlin-2.1.3-b2/.vscode/extensions.json
+Marlin-2.1.3-b2/*.code-workspace
+
+# Simulation files
+Marlin-2.1.3-b2/imgui.ini
+Marlin-2.1.3-b2/eeprom.dat
+Marlin-2.1.3-b2/spi_flash.bin
+Marlin-2.1.3-b2/fs.img
+
+# CMake
+Marlin-2.1.3-b2/buildroot/share/cmake/*
+Marlin-2.1.3-b2/CMakeLists.txt
+!Marlin-2.1.3-b2/buildroot/share/cmake/CMakeLists.txt
+Marlin-2.1.3-b2/src/CMakeLists.txt
+Marlin-2.1.3-b2/CMakeListsPrivate.txt
+Marlin-2.1.3-b2/build/
+
+# CLion
+Marlin-2.1.3-b2/cmake-build-*
+
+# Eclipse
+Marlin-2.1.3-b2/.project
+Marlin-2.1.3-b2/.cproject
+Marlin-2.1.3-b2/.pydevproject
+Marlin-2.1.3-b2/.settings
+Marlin-2.1.3-b2/.classpath
+
+# Python
+Marlin-2.1.3-b2/__pycache__
+
+# IOLogger logs
+Marlin-2.1.3-b2/*_log.csv
+
+# Misc.
+Marlin-2.1.3-b2/*~
+Marlin-2.1.3-b2/*.orig
+Marlin-2.1.3-b2/*.rej
+Marlin-2.1.3-b2/*.bak
+Marlin-2.1.3-b2/*.idea
+Marlin-2.1.3-b2/*.i
+Marlin-2.1.3-b2/*.ii
+Marlin-2.1.3-b2/*.swp
+Marlin-2.1.3-b2/tags
+Marlin-2.1.3-b2/*.logs
+Marlin-2.1.3-b2/*.bak
+Marlin-2.1.3-b2/.aider*
+!Marlin-2.1.3-b2/.aiderignore
+Marlin-2.1.3-b2/.env
